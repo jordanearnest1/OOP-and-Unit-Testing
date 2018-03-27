@@ -3,7 +3,7 @@ import proj1_w18 as proj1
 import json
 
 class TestMedia(unittest.TestCase):
-
+ 
     def testMediaConstructor(self):
         m1 = proj1.Media()
         m2 = proj1.Media(title = "1999", author= "Prince")
